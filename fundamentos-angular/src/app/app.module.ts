@@ -13,6 +13,9 @@ import { SetimoComponenteComponent } from './setimo-componente/setimo-componente
 import { OitavoComponenteComponents } from './oitavo-componente/oitavo-componente.component';
 import { NonoComponenteComponenets } from './nono-componente/nono_componente.component';
 import { DecimoComponenteCompoenets } from './decimo-componente/decimo-componente.component';
+import { DecimoPrimeiroComponent } from './decimo-primeiro/decimo-primeiro.component';
+import { MultiplicaPorPipe } from './multiplica-por.pipe';
+import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { DecimoComponenteCompoenets } from './decimo-componente/decimo-component
     SetimoComponenteComponent,
     OitavoComponenteComponents,
     NonoComponenteComponenets,
-    DecimoComponenteCompoenets
+    DecimoComponenteCompoenets,
+    DecimoPrimeiroComponent,
+    MultiplicaPorPipe,
+    PipeCustomizadoComponent
   ],
   imports: [
     BrowserModule,
