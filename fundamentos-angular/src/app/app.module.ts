@@ -5,12 +5,28 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PrimeiroComponenteComponent } from './primeiro-componente/primeiro-componente.component';
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
+import { TerceiroComponenteComponent } from './terceiro-componente/terceiro-componente.component';
+import { QuartoComponenteComponent } from './quarto-componente/quarto-componente.component';
+import { QuintoComponenteComponent } from './quinto-componente/quinto-componente.component';
+import { SextoComponentComponent } from './sexto-componente/sexto-compoenente.component';
+import { SetimoComponenteComponent } from './setimo-componente/setimo-componente.component';
+import { OitavoComponenteComponents } from './oitavo-componente/oitavo-componente.component';
+import { NonoComponenteComponenets } from './nono-componente/nono_componente.component';
+import { DecimoComponenteCompoenets } from './decimo-componente/decimo-componente.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeiroComponenteComponent,
-    SegundoComponenteComponent
+    SegundoComponenteComponent,
+    TerceiroComponenteComponent,
+    QuartoComponenteComponent,
+    QuintoComponenteComponent,
+    SextoComponentComponent,
+    SetimoComponenteComponent,
+    OitavoComponenteComponents,
+    NonoComponenteComponenets,
+    DecimoComponenteCompoenets
   ],
   imports: [
     BrowserModule,
